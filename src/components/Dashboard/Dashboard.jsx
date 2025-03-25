@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from '../../../public/vite.svg'
 
 const Dashboard = () => {
   return (
@@ -10,7 +11,7 @@ const Dashboard = () => {
       <div className="flex flex-col items-center py-4">
         <img
           className="w-24 h-24 rounded-full border-2 border-purple-500"
-          src="https://via.placeholder.com/150" 
+          src={Image}
           alt="Profile"
         />
         <h2 className="mt-2 text-lg font-semibold">Marry Doe</h2>
